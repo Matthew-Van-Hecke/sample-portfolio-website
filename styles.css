@@ -1,0 +1,50 @@
+.page-heading{
+    background-color: rgb(185, 185, 185);
+    border-bottom: 2px solid rgb(100, 100, 100);
+    border-right: 2px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    color: rgb(83, 24, 24);
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.pages-link{
+    color: rgb(100, 100, 100);
+}
+img{
+    border-radius: 10px;
+    box-shadow: 2px solid rgb(100, 100, 100);
+}
+.nav{
+    color: rgb(100, 100, 100);
+    background-color: rgb(185, 185, 185);
+    border-bottom: 2px solid rgb(100, 100, 100);
+    border-right: 2px solid rgb(100, 100, 100);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+}
+.pages-link:hover{
+    color: white;
+    background-color: rgb(140,140,140);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+}
+body{
+    font-size: 2vw;
+    color: white;
+    background-image: url(media/home-page-background.jpg);
+    background-color: rgba(185, 185, 185, 1);
+}
+.content{
+    background-color: rgba(14, 14, 14, 0.6);
+    border: 2px solid rgb(50, 50, 50);
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 1.5em;
+}
