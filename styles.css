@@ -1,14 +1,17 @@
 .page-heading{
-    background-color: rgb(185, 185, 185);
     border-bottom: 2px solid rgb(100, 100, 100);
     border-right: 2px solid rgb(100, 100, 100);
     border-radius: 10px;
-    color: rgb(83, 24, 24);
-    font-family: sans-serif;
     margin-bottom: 10px;
+    color: 2px 2px white;
+    text-shadow: rgb(83, 24, 24);
+    background-color: rgba(14, 14, 14, 0.6);
+    background-blend-mode: lighten;
+    background-position: right;
 }
 .pages-link{
     color: rgb(100, 100, 100);
+    border-top: 2px solid rgb(100, 100, 100);
 }
 img{
     border-radius: 10px;
@@ -21,6 +24,7 @@ img{
     border-right: 2px solid rgb(100, 100, 100);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+
     margin-bottom: 10px;
 }
 .pages-link:hover{
@@ -29,16 +33,18 @@ img{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     text-decoration: none;
-    border: 1px solid black;
+    border-top: 2px solid rgb(100, 100, 100);
 }
 body{
     color: white;
     background-image: url(media/home-page-background.jpg);
-    background-color: rgba(185, 185, 185, 1);
+    background-attachment: fixed; 
+    font-family: sans-serif;
 }
 .content{
     background-color: rgba(14, 14, 14, 0.6);
-    border: 2px solid rgb(50, 50, 50);
+    border-bottom: 2px solid rgb(100, 100, 100);
+    border-right: 2px solid rgb(100, 100, 100);
     border-radius: 10px;
     padding: 10px;
 }
@@ -48,5 +54,40 @@ body{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     text-decoration: none;
-    border-top: 1px solid black;
+    border-top: 2px solid rgb(100, 100, 100);
+}
+#contact-message{
+    height: 10rem;
+    text-align: left upper;
+}
+input{
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+textarea{
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.send-button{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 10px;
+    background-color: rgb(140, 140, 140);
+    color: rgb(255, 255, 255);
+}
+.icons{
+    font-size: 2em;
+    width: 50%;
+}
+.icons i{
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+.icons i:hover{
+    color: rgb(100, 100, 100);
+}
+li{
+    list-style: none;
 }
