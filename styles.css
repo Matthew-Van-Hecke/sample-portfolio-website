@@ -14,9 +14,10 @@
     color: rgb(204, 204, 204);
     border-top: 2px solid rgba(214, 58, 37, 0.3);
 }
-img{
+#about-me-picture{
     border-radius: 10px;
     border: 5px solid rgba(214, 58, 37, 0.3);
+    padding: 0;
 }
 .pages-link:hover{
     color: white;
@@ -70,23 +71,20 @@ textarea{
     background-color: rgb(140, 140, 140);
     color: rgb(255, 255, 255);
 }
-.icons{
-    font-size: 2em;
-    width: 50%;
-}
-.icons i{
+.icon i{
     padding: 5px;
     color: white;
     text-align: center;
+    font-size: 2.5em;
 }
-.icons i:hover{
+.icon i:hover{
     color: rgb(100, 100, 100);
 }
 li{
     list-style: none;
 }
 .icon img{
-    width:75%;
+    height: 5em;
     padding:3px;
     text-align: center;
 }
